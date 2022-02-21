@@ -8,6 +8,7 @@ CREATE TABLE Users (
   password VARCHAR(50) NOT NULL
 );
 
+
 CREATE TABLE Posts (
   post_id INT PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(50) NOT NULL,
